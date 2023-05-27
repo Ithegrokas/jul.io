@@ -6,16 +6,17 @@ public class DragDrop : MonoBehaviour
 {
     public GameObject selectedObject;
     Vector3 offset;
+    Vector3 mousePosition;
 
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonDown(0))
         {
             Collider2D targetObject = Physics2D.OverlapPoint(mousePosition);
-            if (targetObject)
+            if (targetObject?.tag == "Jul" && targetObject.GetComponent<Jul>().notDragged)
             {
                 selectedObject = targetObject.transform.gameObject;
                 offset = selectedObject.transform.position - mousePosition;
@@ -27,6 +28,8 @@ public class DragDrop : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0) && selectedObject)
         {
+            selectedObject.GetComponent<Jul>().notDragged = false;
+            selectedObject.AddComponent<Rigidbody2D>().freezeRotation = true;
             selectedObject = null;
         }
     }
