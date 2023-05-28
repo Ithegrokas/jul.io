@@ -911,7 +911,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -932,7 +932,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,6 +940,27 @@ TextureImporter:
       bones: []
       spriteID: 0e555a248ec4f254b919d9bacd538ea5
       internalID: 818531467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_TileMap_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b2f529b13f04f45a3e0098ac5b8bfd
+      internalID: -1986481423
       vertices: []
       indices: 
       edges: []
@@ -990,6 +1011,7 @@ TextureImporter:
       SPR_TileMap_38: -1907591167
       SPR_TileMap_39: 818531467
       SPR_TileMap_4: -756821185
+      SPR_TileMap_40: -1986481423
       SPR_TileMap_5: -1975743344
       SPR_TileMap_6: 1187416633
       SPR_TileMap_7: -559691190
