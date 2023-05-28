@@ -30,7 +30,7 @@ public class Jul : MonoBehaviour
         movement.x = 1f;
     }
 
-    public Type GetType()
+    public Type GetJulType()
     {
         return type;
     }
