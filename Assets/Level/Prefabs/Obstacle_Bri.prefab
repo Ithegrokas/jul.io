@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: -1498904123, guid: 42a181cf78ae4aa458f720ec4b7b69ee, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
       propertyPath: canObstacle
       value: 
       objectReference: {fileID: 5503831821119614387, guid: e46058848200040469a37e28ad9e6702, type: 3}

@@ -12,6 +12,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: -701584896, guid: 42a181cf78ae4aa458f720ec4b7b69ee, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
       propertyPath: briObstacle
       value: 
       objectReference: {fileID: 813991487932048791, guid: 10b105c05fba337468b9c76de956d3f6, type: 3}
@@ -41,6 +45,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2257616800187431141, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
       propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2257616800187431141, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 496459522951036638, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}

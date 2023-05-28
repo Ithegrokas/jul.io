@@ -39,4 +39,22 @@ public class Jul : MonoBehaviour
     {
         return clicked;
     }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if (other.gameObject.CompareTag("Terrain"))
+        {
+            movement.x = 1.5f;
+            playerRB.velocity = speed * speedMultiplier * movement;
+            playerRB.gravityScale = 0f;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other) {
+        if (other.gameObject.CompareTag("Terrain"))
+        {
+            movement.x = 0.5f;
+            playerRB.velocity = speed * speedMultiplier * movement;
+            playerRB.gravityScale = 20f;
+        }
+    }
 }

@@ -12,6 +12,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 212814878, guid: 42a181cf78ae4aa458f720ec4b7b69ee, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
       propertyPath: briObstacle
       value: 
       objectReference: {fileID: 813991487932048791, guid: 10b105c05fba337468b9c76de956d3f6, type: 3}
