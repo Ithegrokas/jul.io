@@ -43,6 +43,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 496459522951036638, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2049044061253814892, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
       propertyPath: m_Name
       value: Obstacle_Can
