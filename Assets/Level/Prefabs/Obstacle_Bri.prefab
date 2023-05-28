@@ -7,6 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: canObstacle
+      value: 
+      objectReference: {fileID: 5503831821119614387, guid: e46058848200040469a37e28ad9e6702, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: newObstacle
+      value: 
+      objectReference: {fileID: 5153481373904763714, guid: 7ae543a8215c53b4facbdca6a92bdca6, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: oliObstacle
+      value: 
+      objectReference: {fileID: 8602473019544078517, guid: 49b9149bb1395be4a98a5de354fc0769, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: chanObstacle
+      value: 
+      objectReference: {fileID: 5153481373904763714, guid: 7ae543a8215c53b4facbdca6a92bdca6, type: 3}
     - target: {fileID: -2257616800187431141, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
       propertyPath: m_Sprite
       value: 

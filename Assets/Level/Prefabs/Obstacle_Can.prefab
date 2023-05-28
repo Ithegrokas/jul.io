@@ -11,6 +11,22 @@ PrefabInstance:
       propertyPath: type
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: briObstacle
+      value: 
+      objectReference: {fileID: 813991487932048791, guid: 10b105c05fba337468b9c76de956d3f6, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: newObstacle
+      value: 
+      objectReference: {fileID: 8602473019544078517, guid: 49b9149bb1395be4a98a5de354fc0769, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: oliObstacle
+      value: 
+      objectReference: {fileID: 8602473019544078517, guid: 49b9149bb1395be4a98a5de354fc0769, type: 3}
+    - target: {fileID: -5897825012926590711, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
+      propertyPath: chanObstacle
+      value: 
+      objectReference: {fileID: 5153481373904763714, guid: 7ae543a8215c53b4facbdca6a92bdca6, type: 3}
     - target: {fileID: -2257616800187431141, guid: 2b39c06a9fccdcc48a8149190864375e, type: 3}
       propertyPath: m_Sprite
       value: 
