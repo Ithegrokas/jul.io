@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Type type;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnCollisionEnter2D(Collision2D other) {
+        Type julType = other.gameObject.GetComponent<Jul>().GetType();
+        switch (julType)
+        {
+            
+
+        }
     }
 }

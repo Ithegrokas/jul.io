@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3347852238013752809, guid: 0176b191735036547827d70d81416396, type: 3}
+      propertyPath: type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3347852238013752812, guid: 0176b191735036547827d70d81416396, type: 3}
       propertyPath: m_Name
-      value: Jul_Can Variant
+      value: Jul_Can
       objectReference: {fileID: 0}
     - target: {fileID: 3347852238013752813, guid: 0176b191735036547827d70d81416396, type: 3}
       propertyPath: m_Offset.x
