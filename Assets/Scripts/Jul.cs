@@ -4,24 +4,32 @@ using UnityEngine;
 
 public class Jul : MonoBehaviour
 {
-    public bool notDragged = true;
-    public float speed = 5f;
-    public float speedMultiplier = 1f;
-    private Vector2 movement;
+    private bool clicked = false;
+    [SerializeField][Range(0,50)] private float speed = 5f;
+    [SerializeField][Range(0,10)] private float speedMultiplier = 1f;
+    private Vector2 movement = Vector2.zero;
     private Rigidbody2D playerRB;
 
-    void Start()
+    void Update ()
     {
-        playerRB = GetComponent<Rigidbody2D>();
+        if (clicked)
+        {
+            playerRB.velocity = speed * speedMultiplier * movement;
+        }
     }
 
-    void Update()
+    public void Clicked() 
     {
-        if (!notDragged)
-        {
-            movement.y = 0;
-            movement.x = 1;
-            playerRB.velocity = movement * speed * speedMultiplier;
-        }
+        //Initializing Variables and Components
+        clicked = true;
+        playerRB = gameObject.AddComponent<Rigidbody2D>();
+        playerRB.freezeRotation = true;
+        playerRB.angularDrag = 0f;
+        movement.x = 1f;
+    }
+
+    public bool IsClicked() 
+    {
+        return clicked;
     }
 }
