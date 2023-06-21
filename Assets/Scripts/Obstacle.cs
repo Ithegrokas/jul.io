@@ -6,7 +6,9 @@ public class Obstacle : MonoBehaviour
 {
     [SerializeField] private Type type;
     [SerializeField] private GameObject newObstacle;
+    [SerializeField] private bool isSet = false;
     public Sprite newSprite;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         Type julType = other.gameObject.GetComponent<Jul>().GetJulType();
