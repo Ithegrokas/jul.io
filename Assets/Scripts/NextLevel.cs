@@ -9,6 +9,7 @@ public class NextLevel : MonoBehaviour
     // Update is called once per frame
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Collision" + currentScene.ToString());
+        currentScene++;
+        SceneManager.LoadScene("level" + currentScene.ToString());
     }
 }
